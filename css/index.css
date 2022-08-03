@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.border{
+    border: 3px solid #000000;
+}
+header{
+    width: 100%;
+    height: 150px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color: #00504c;
+}
+.logo{
+    float: left;
+    margin: 15px 15px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+nav ul a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+}
+nav ul a:link{
+    color: #ffffff;
+}
+/* nav ul a:visited{
+    color: #8b008b;
+} */
+nav ul a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+nav ul a:active{
+    color: #ffffff;
+    background-color: #000000;
+}
+nav ul a li{
+    display: inline-block;
+    margin: 25px 25px;
+}
+main{
+    width: 100%;
+    height: 600px;
+    background-color: antiquewhite;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url('/img/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.heroText{
+    color: #ffffff;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heroText h2{
+    font-size: 80px;
+}
+.heroText p{
+    font-size: 22px;
+    line-height: 60px;
+}
+.heroText button{
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 2px 3px 5px #000000;
+}
+.heroText button:hover{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+}
+.heroText button:active{
+    border: 1px solid #ffffff;
+    background-color: #00504c;
+    color: #ffffff;
+}
+aside{
+    width: 35%;
+    height: 600px;
+    float: right;
+}
+section, article{
+    width: 65%;
+    height: 300px;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    clear: both;
+}
